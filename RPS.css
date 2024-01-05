@@ -1,0 +1,90 @@
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    color: #333;
+    /* Example color */
+    margin-bottom: 20px;
+}
+
+/* Styling for the game board */
+.gameboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* Adjust the height to your preference */
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 80%;
+    /* Adjust the width to your preference */
+    max-width: 1000px;
+    /* Maximum width */
+}
+
+/* Styling for the split screen */
+.splitScreen {
+    display: flex;
+    width: 100%;
+    /* Take the full width of the gameboard */
+    height: 100%;
+    /* Take the full height of the gameboard */
+}
+
+/* Styling for the left and right sections */
+.left,
+.right {
+    flex: 1;
+    /* Each section takes up half the width */
+    padding: 20px;
+    /* Padding inside each section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left {
+    background-color: lightblue;
+}
+
+.right {
+    background-color: lightgreen;
+}
+
+/* Styling for the game choices */
+.gamechoices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 10;
+    text-align: center;
+}
+
+.gamechoices button {
+    display: block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling for the buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Darken color on hover */
+}
